@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MyPBR_Wood
+  m_Shader: {fileID: 4800000, guid: 044508868002a3d408b3683fb66a0436, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AlphaTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AoTex:
+        m_Texture: {fileID: 2800000, guid: 1cacb7a67d01c9b409071ba9bac852f9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emission:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LUT:
+        m_Texture: {fileID: 2800000, guid: dc1bfe2c627df3343b60eab65e4d69d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: c6c5ac5920dbef54fa8a482bb13ba61b, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _Metallic:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormaTex:
+        m_Texture: {fileID: 2800000, guid: 69465477e52532c438a048c79005554b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Roughness:
+        m_Texture: {fileID: 2800000, guid: dab8e8e90066f0e408a112260d5575fc, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SSSLUT:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BTDFtoggle: 0
+    - _BlendOp: 0
+    - _ColorMask: 15
+    - _CullMode: 2
+    - _Cutoff: 0
+    - _DstBlend: 0
+    - _MetallicInt: 0
+    - _RefractionInt: 0
+    - _Smoothness: 0
+    - _SrcBlend: 1
+    - _Transparent: 1
+    - _ZTestMode: 4
+    - _ZWriteMode: 1
+    - _btdfDistortion: 0.5
+    - _btdfpow: 0.5
+    - _btdfscale: 0.5
+    m_Colors:
+    - EmissCol: {r: 1, g: 1, b: 1, a: 1}
+    - _Tint: {r: 1, g: 1, b: 1, a: 1}
+    - _btdfCol: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
